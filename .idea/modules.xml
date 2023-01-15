@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MergeServie.iml" filepath="$PROJECT_DIR$/.idea/MergeServie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MergeProgram.iml" filepath="$PROJECT_DIR$/.idea/MergeProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/mergeSort/mergeSort.iml" filepath="$PROJECT_DIR$/mergeSort/mergeSort.iml" />
     </modules>
   </component>

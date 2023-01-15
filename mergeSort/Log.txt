@@ -1,0 +1,17 @@
+янв. 14, 2023 7:46:49 PM Main main
+INFO: Логирование: global
+Аргументы запущенной сортировки: [-i, out.txt, in1.txt, in2.txt, in5.txt]
+янв. 14, 2023 7:46:49 PM services.MergeService makeAListOfReaders
+WARNING: Ошибка открытия входящего файла : "-i" : файл пуст или не существует
+янв. 14, 2023 7:46:49 PM services.MergeService makeAListOfReaders
+WARNING: Ошибка открытия входящего файла : "out.txt" : файл пуст или не существует
+янв. 14, 2023 7:46:49 PM services.MergeService makeAListOfReaders
+WARNING: Ошибка открытия входящего файла : "in1.txt" : файл пуст или не существует
+янв. 14, 2023 7:46:49 PM services.MergeService makeAListOfReaders
+WARNING: Ошибка открытия входящего файла : "in2.txt" : файл пуст или не существует
+янв. 14, 2023 7:46:49 PM services.MergeService makeAListOfReaders
+WARNING: Ошибка открытия входящего файла : "in5.txt" : файл пуст или не существует
+янв. 14, 2023 7:46:49 PM services.MergeService writeMergedFiles
+WARNING: null
+янв. 14, 2023 7:46:49 PM Main main
+INFO: Время выполнения программы: 0
