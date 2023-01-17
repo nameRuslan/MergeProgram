@@ -22,9 +22,11 @@ sort-it.exe -s out.txt in1.txt in2.txt in3.txt (для строк по возр�
 sort-it.exe -d -s out.txt in1.txt in2.txt (для строк по убыванию)
 
 Java : SDK 18.0.2
+
 Использовал систему сборки Maven 4.0.0 (для возможного масштабирования и удобства внедерния зависимостей)
+
 Добавлены зависимоти JUNIT:
-    <dependency>
+<dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>4.13.2</version>
