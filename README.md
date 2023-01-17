@@ -26,17 +26,29 @@ Java : SDK 18.0.2
 Использовал систему сборки Maven 4.0.0 (для возможного масштабирования и удобства внедерния зависимостей)
 
 Добавлены зависимоти JUNIT:
+
 <dependency>
+        
         <groupId>junit</groupId>
+        
         <artifactId>junit</artifactId>
+        
         <version>4.13.2</version>
+        
         <scope>test</scope>
+        
     </dependency>
+  
     <dependency>
+    
         <groupId>org.junit.jupiter</groupId>
+        
         <artifactId>junit-jupiter-params</artifactId>
+        
         <version>5.9.2</version>
+        
         <scope>test</scope>
+        
     </dependency>
 
 
