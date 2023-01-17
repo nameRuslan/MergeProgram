@@ -117,16 +117,15 @@ public class MergeService {
         //Не записываем значение сканнера, выводим информацию в лог и сканируем следующее значение.
         private void skipReaderValueAndLogIt(FileScanner readerWithHighestOrLowestValue) {
             log().log(Level.WARNING, "Символ(число) \"" + readerWithHighestOrLowestValue.getValue() + "\" в файле " +
-                    readerWithHighestOrLowestValue.source + " был пропущен(игнорирова) т.к. невалидный и записан в log файл");
+                    readerWithHighestOrLowestValue.source + " был пропущен(игнорирован) т.к. невалидный и записан в log файл");
             readerWithHighestOrLowestValue.getValueAndReadNext();
         }
 
         //Нарушен ли порядок сортировки во входном файле
-        private boolean isInputFileUnsorted(boolean descendingSortOrder, FileScanner previouslyAddedReader,
-                                            FileScanner readerWithGoalValue) {
-            if (descendingSortOrder && previouslyAddedReader.compareTo(readerWithGoalValue) < 0) {
+        private boolean isInputFileUnsorted(boolean descendingSortOrder,
+                                            FileScanner previouslyAddedReader, FileScanner readerWithGoalValue) {
+            if (descendingSortOrder && previouslyAddedReader.compareTo(readerWithGoalValue) < 0)
                 return true;
-            }
             return !descendingSortOrder && previouslyAddedReader.compareTo(readerWithGoalValue) > 0;
         }
     }

@@ -1,9 +1,7 @@
 import repository.MergeRepository;
 import services.LogService;
 import services.MergeService;
-
 import java.util.Arrays;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +16,6 @@ public class Main {
         MergeService mergeService = new MergeService(mergeRepository);
         mergeService.writeMergedFiles(mergeRepository.getOutputFileName());
 
-        LogService.log().info("Время выполнения программы: " + ((System.currentTimeMillis() - programStart) / 1000));
+        LogService.log().info("Время выполнения программы (сек): " + ((System.currentTimeMillis() - programStart) / 1000));
     }
 }
