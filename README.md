@@ -28,7 +28,9 @@ Java : SDK 18.0.2
 Добавлены зависимоти JUNIT:
 
 
-.<dependency>
+<dependency>
+        
+    <dependency>
         
         <groupId>junit</groupId>
         
